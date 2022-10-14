@@ -3,7 +3,7 @@
         <div class="headInner">
             <div class="hedLtArea">
                 <cur-button @click="asdf" class-name="wmxnxnxnxnxn"> 로고 </cur-button>
-            </div>
+            </div>123123
             <div class="hedCtArea">
                 <slot />
             </div>
