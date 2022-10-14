@@ -2,7 +2,7 @@
     <div :id="$options.name" :class="`globalLayoutChildren ${$options.name}`">
         <div class="headInner">
             <div class="hedLtArea">
-                <cur-button @click="asdf" class-name="wmxnxnxnxnxn"> 로고1111 </cur-button>
+                <cur-button @click="asdf" class-name="wmxnxnxnxnxn"> 로고1111 upper dev_test </cur-button>
             </div>
             <div class="hedCtArea">
                 <slot />
