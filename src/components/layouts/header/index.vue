@@ -2,8 +2,13 @@
     <div :id="$options.name" :class="`globalLayoutChildren ${$options.name}`">
         <div class="headInner">
             <div class="hedLtArea">
+<<<<<<< HEAD
                 <cur-button @click="asdf" class-name="wmxnxnxnxnxn"> 로고 </cur-button>
             </div>123123
+=======
+                <cur-button @click="asdf" class-name="wmxnxnxnxnxn"> 로고1111 </cur-button>
+            </div>
+>>>>>>> c350f2645bf25de9d37ebae1f61a3c250b7cc05a
             <div class="hedCtArea">
                 <slot />
             </div>
