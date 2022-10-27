@@ -1,0 +1,30 @@
+@charset "utf-8";
+@import './util.scss';
+
+.curButton{
+	appearance: none;
+	-webkit-appearance: none;
+	background: {
+		color:inherit;
+	};
+	color: var(--button-color);
+	cursor: pointer;
+	font:{
+		size: conv_rem($FONTSIZE_BASE);
+		family: $FONT_FAMILY;
+	};
+	box-shadow: none;
+	border: {
+		radius: 0;
+		width: 0px;
+	};
+
+	&:focus{
+		box-shadow: none;
+	};
+	&:focus-visible{
+		outline:{
+			style: dotted;
+		}
+	}
+}

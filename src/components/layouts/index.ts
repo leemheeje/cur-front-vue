@@ -1,0 +1,6 @@
+import '@/assets/style/scss/layout.scss'
+export { default as LayoutPost } from '@/components/layouts/LayoutPost.vue'
+export { default as LayoutAside } from '@/components/layouts/aside/index.vue'
+export { default as LayoutContent } from '@/components/layouts/content/index.vue'
+export { default as LayoutHeader } from '@/components/layouts/header/index.vue'
+export { default as LayoutLnb } from '@/components/layouts/lnb/index.vue'
