@@ -18,13 +18,9 @@
 			}
 			&.layoutLnb{
 				width: conv_rem($CONATINER_WIDTH * .25);
-				height: 30px;
-				background: blue
 			}
 			&.layoutContent{
 				width: conv_rem($CONATINER_WIDTH * .75);
-				height: 30px;
-				background: green
 			}
 		}
 	}

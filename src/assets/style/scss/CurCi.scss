@@ -1,0 +1,26 @@
+@charset "utf-8";
+@import './util.scss';
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+.curCi{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 5px;
+	.cimg{
+		display: block;
+		display: none;
+		width: 40px;
+		img{
+			max-width: 100%;
+		}
+	}
+	.ctxt{
+		color: $COLOR_PRIMARY;
+		font: {
+			size: 32px;
+			family: 'Patrick Hand', cursive;
+			weight: 600;
+		}
+	}
+}
