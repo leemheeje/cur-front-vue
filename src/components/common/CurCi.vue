@@ -1,10 +1,8 @@
 <template>
-  <span class="curCi">
-	<span class="cimg">
-		<img src="@/assets/images/logo.jpg" alt=""/>
-	</span>
-	<span class="ctxt">Cazoo</span>
-  </span>
+    <span class="curCi">
+        <span class="cimg">Mw</span>
+        <span class="ctxt">MwWVIVA</span>
+    </span>
 </template>
 
 <script lang="ts">
@@ -14,7 +12,5 @@ import { Component, Vue, Prop } from "vue-property-decorator";
 @Component({
     name: "CurCi",
 })
-export default class extends Vue {
-
-}
+export default class extends Vue {}
 </script>
